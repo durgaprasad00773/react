@@ -1,0 +1,35 @@
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card{
+  background: #444;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  padding: 20px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.card img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  
+}
